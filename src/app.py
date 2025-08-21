@@ -4,8 +4,9 @@ import pandas as pd
 import joblib
 
 # Load saved model and feature columns
-model = joblib.load("../diabetes_model.pkl")
-model_columns = joblib.load("../model_columns.pkl")
+model = joblib.load("diabetes_model.pkl")
+model_columns = joblib.load("model_columns.pkl")
+
 
 
 # Title and description
